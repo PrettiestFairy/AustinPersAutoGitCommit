@@ -1,0 +1,1055 @@
+[2023-09-29 22:34:01 | 0:00:00.056138 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-29 22:36:04 | 0:00:00.056177 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-29 22:39:46 | 0:01:02.018729 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-29 22:42:41 | 0:00:00.052122 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-29 22:58:22 | 0:00:00.054441 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-29 22:58:38 | 0:00:00.056213 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-29 23:04:07 | 0:00:00.050139 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-29 23:05:07 | 0:00:00.050664 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-29 23:32:45 | 0:00:00.043277 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-30 00:04:14 | 0:00:00.042970 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-30 00:04:28 | 0:00:00.044946 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-30 10:08:16 | 0:00:00.046034 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config/config.dev.yaml 读取成功.
+[2023-09-30 11:01:21 | 0:00:03.712966 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:01:38 | 0:00:20.620613 | ERROR   ]: 'GitOperationClass' object has no attribute '_GitOperationClass__repo'
+Traceback (most recent call last):
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 2199, in <module>
+    main()
+    └ <function main at 0x000001EB5315E9D0>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 2181, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              │        │   │                          └ False
+              │        │   └ {'port': 18958, 'vm_type': None, 'client': '127.0.0.1', 'server': False, 'DEBUG_RECORD_SOCKET_READS': False, 'multiproc': Fal...
+              │        └ <function PyDB.run at 0x000001EB5315F9D0>
+              └ <__main__.PyDB object at 0x000001EB50939460>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 1493, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           │    │     │          │               │            │     │        └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+           │    │     │          │               │            │     └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+           │    │     │          │               │            └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\bin\\AustinPersAutoGitCommitService.py'
+           │    │     │          │               └ None
+           │    │     │          └ ''
+           │    │     └ False
+           │    └ <function PyDB._exec at 0x000001EB5315FA60>
+           └ <__main__.PyDB object at 0x000001EB50939460>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 1500, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    │             │        │     │        └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+    │             │        │     └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+    │             │        └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\bin\\AustinPersAutoGitCommitService.py'
+    │             └ <function execfile at 0x000001EB524B99D0>
+    └ <module '_pydev_bundle.pydev_imports' from 'D:\\App\\JetBrains\\App\\PyCharm Professional\\plugins\\python\\helpers\\pydev\\_...
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+                 │              │              │     └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+                 │              │              └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+                 │              └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\bin\\AustinPersAutoGitCommitService.py'
+                 └ '# coding: utf8\n""" \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Chengdu.China) https...
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 26, in <module>
+    run()
+    └ <function run at 0x000001EB531B7550>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 21, in run
+    git_opt = GitOperationClass()
+              └ <class 'core.AutoGitCommit.git_operation.GitOperationClass'>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 40, in __init__
+    self.__git_fatch()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001EB533ECBE0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 52, in __git_fatch
+    self.__repo.remote().fetch()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001EB533ECBE0>
+
+AttributeError: 'GitOperationClass' object has no attribute '_GitOperationClass__repo'
+[2023-09-30 11:03:42 | 0:00:02.453595 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:05:41 | 0:00:00.041031 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:05:41 | 0:00:00.042066 | ERROR   ]: 'GitOperationClass' object has no attribute '_GitOperationClass__repo'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 26, in <module>
+    run()
+    └ <function run at 0x00000197C2D1EB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 21, in run
+    git_opt = GitOperationClass()
+              └ <class 'core.AutoGitCommit.git_operation.GitOperationClass'>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 40, in __init__
+    self.__git_fatch()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x00000197C2C09FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 52, in __git_fatch
+    self.__repo.remote().fetch()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x00000197C2C09FA0>
+
+AttributeError: 'GitOperationClass' object has no attribute '_GitOperationClass__repo'
+[2023-09-30 11:06:30 | 0:00:02.776587 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:14:50 | 0:00:00.044107 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:14:53 | 0:00:02.515475 | ERROR   ]: No item found with id 'ReleaseMaster'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\util.py", line 1109, in __getitem__
+    return getattr(self, index)
+                   │     └ 'ReleaseMaster'
+                   └ [<git.Remote "origin">]
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\util.py", line 1098, in __getattr__
+    return list.__getattribute__(self, attr)
+                                 │     └ 'ReleaseMaster'
+                                 └ [<git.Remote "origin">]
+
+AttributeError: 'IterableList' object has no attribute 'ReleaseMaster'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in <module>
+    run()
+    └ <function run at 0x00000232E0A2EB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 23, in run
+    git_opt.get_push()
+    │       └ <function GitOperationClass.get_push at 0x00000232E335A4C0>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x00000232E0459FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 73, in get_push
+    self.__repo.remotes['ReleaseMaster'].push()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x00000232E0459FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\util.py", line 1111, in __getitem__
+    raise IndexError("No item found with id %r" % (self._prefix + index)) from e
+                                                   │    │         └ 'ReleaseMaster'
+                                                   │    └ <member '_prefix' of 'IterableList' objects>
+                                                   └ [<git.Remote "origin">]
+
+IndexError: No item found with id 'ReleaseMaster'
+[2023-09-30 11:16:43 | 0:00:00.039618 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:17:09 | 0:00:25.876857 | ERROR   ]: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in <module>
+    run()
+    └ <function run at 0x0000020DEA15EB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 23, in run
+    git_opt.get_push()
+    │       └ <function GitOperationClass.get_push at 0x0000020DECA7A4C0>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x0000020DE9B89FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 73, in get_push
+    self.__repo.remote().push()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x0000020DE9B89FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 1117, in push
+    return self._get_push_info(proc, progress, kill_after_timeout=kill_after_timeout)
+           │    │              │     │                            └ None
+           │    │              │     └ None
+           │    │              └ <git.cmd.Git.AutoInterrupt object at 0x0000020DECA7C480>
+           │    └ <function Remote._get_push_info at 0x0000020DEC28D3A0>
+           └ <git.Remote "origin">
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 926, in _get_push_info
+    proc.wait(stderr=stderr_text)
+    │    │           └ "fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'htt...
+    │    └ <function Git.AutoInterrupt.wait at 0x0000020DEC1B3940>
+    └ <git.cmd.Git.AutoInterrupt object at 0x0000020DECA7C480>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 602, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+          │               │                          │    │      │       └ b"fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'ht...
+          │               │                          │    │      └ 128
+          │               │                          │    └ <member 'args' of 'AutoInterrupt' objects>
+          │               │                          └ <git.cmd.Git.AutoInterrupt object at 0x0000020DECA7C480>
+          │               └ <function remove_password_if_present at 0x0000020DEC0689D0>
+          └ <class 'git.exc.GitCommandError'>
+
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+[2023-09-30 11:18:22 | 0:00:00.040379 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:18:39 | 0:00:17.425932 | ERROR   ]: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in <module>
+    run()
+    └ <function run at 0x0000029C6706EB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 23, in run
+    git_opt.get_push()
+    │       └ <function GitOperationClass.get_push at 0x0000029C699BA4C0>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x0000029C66AB9FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 73, in get_push
+    self.__repo.remote().push()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x0000029C66AB9FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 1117, in push
+    return self._get_push_info(proc, progress, kill_after_timeout=kill_after_timeout)
+           │    │              │     │                            └ None
+           │    │              │     └ None
+           │    │              └ <git.cmd.Git.AutoInterrupt object at 0x0000029C699F7A00>
+           │    └ <function Remote._get_push_info at 0x0000029C691CD3A0>
+           └ <git.Remote "origin">
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 926, in _get_push_info
+    proc.wait(stderr=stderr_text)
+    │    │           └ "fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'htt...
+    │    └ <function Git.AutoInterrupt.wait at 0x0000029C690F2940>
+    └ <git.cmd.Git.AutoInterrupt object at 0x0000029C699F7A00>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 602, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+          │               │                          │    │      │       └ b"fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'ht...
+          │               │                          │    │      └ 128
+          │               │                          │    └ <member 'args' of 'AutoInterrupt' objects>
+          │               │                          └ <git.cmd.Git.AutoInterrupt object at 0x0000029C699F7A00>
+          │               └ <function remove_password_if_present at 0x0000029C68D989D0>
+          └ <class 'git.exc.GitCommandError'>
+
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+[2023-09-30 11:25:51 | 0:00:00.050328 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:27:24 | 0:00:00.050367 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:27:39 | 0:00:14.368047 | ERROR   ]: Cmd('git') failed due to: exit code(128)
+  cmdline: git fetch -v -- origin
+  stderr: 'fatal: Authentication failed for 'https://github.com/AustinFairyland/test_auto_push.git/''
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in <module>
+    run()
+    └ <function run at 0x000001DF5B19EB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 21, in run
+    git_opt = GitOperationClass()
+              └ <class 'core.AutoGitCommit.git_operation.GitOperationClass'>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 42, in __init__
+    self.__git_fatch()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001DF5AB79FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 52, in __git_fatch
+    self.__repo.remote().fetch()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001DF5AB79FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 1014, in fetch
+    res = self._get_fetch_info_from_stderr(proc, progress, kill_after_timeout=kill_after_timeout)
+          │    │                           │     │                            └ None
+          │    │                           │     └ None
+          │    │                           └ <git.cmd.Git.AutoInterrupt object at 0x000001DF5DAF4680>
+          │    └ <function Remote._get_fetch_info_from_stderr at 0x000001DF5D2ED310>
+          └ <git.Remote "origin">
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 853, in _get_fetch_info_from_stderr
+    proc.wait(stderr=stderr_text)
+    │    │           └ "fatal: Authentication failed for 'https://github.com/AustinFairyland/test_auto_push.git/'"
+    │    └ <function Git.AutoInterrupt.wait at 0x000001DF5D223940>
+    └ <git.cmd.Git.AutoInterrupt object at 0x000001DF5DAF4680>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 602, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+          │               │                          │    │      │       └ b"fatal: Authentication failed for 'https://github.com/AustinFairyland/test_auto_push.git/'"
+          │               │                          │    │      └ 128
+          │               │                          │    └ <member 'args' of 'AutoInterrupt' objects>
+          │               │                          └ <git.cmd.Git.AutoInterrupt object at 0x000001DF5DAF4680>
+          │               └ <function remove_password_if_present at 0x000001DF5D0D99D0>
+          └ <class 'git.exc.GitCommandError'>
+
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git fetch -v -- origin
+  stderr: 'fatal: Authentication failed for 'https://github.com/AustinFairyland/test_auto_push.git/''
+[2023-09-30 11:27:48 | 0:00:23.338249 | ERROR   ]: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: Authentication failed for 'https://github.com/AustinFairyland/test_auto_push.git/''
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in <module>
+    run()
+    └ <function run at 0x000001DF5B19EB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 23, in run
+    git_opt.get_push()
+    │       └ <function GitOperationClass.get_push at 0x000001DF5DADA4C0>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001DF5AB79FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 74, in get_push
+    self.__repo.remote().push()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001DF5AB79FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 1117, in push
+    return self._get_push_info(proc, progress, kill_after_timeout=kill_after_timeout)
+           │    │              │     │                            └ None
+           │    │              │     └ None
+           │    │              └ <git.cmd.Git.AutoInterrupt object at 0x000001DF5DB3A380>
+           │    └ <function Remote._get_push_info at 0x000001DF5D2ED3A0>
+           └ <git.Remote "origin">
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 926, in _get_push_info
+    proc.wait(stderr=stderr_text)
+    │    │           └ "fatal: Authentication failed for 'https://github.com/AustinFairyland/test_auto_push.git/'"
+    │    └ <function Git.AutoInterrupt.wait at 0x000001DF5D223940>
+    └ <git.cmd.Git.AutoInterrupt object at 0x000001DF5DB3A380>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 602, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+          │               │                          │    │      │       └ b"fatal: Authentication failed for 'https://github.com/AustinFairyland/test_auto_push.git/'"
+          │               │                          │    │      └ 128
+          │               │                          │    └ <member 'args' of 'AutoInterrupt' objects>
+          │               │                          └ <git.cmd.Git.AutoInterrupt object at 0x000001DF5DB3A380>
+          │               └ <function remove_password_if_present at 0x000001DF5D0D99D0>
+          └ <class 'git.exc.GitCommandError'>
+
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: Authentication failed for 'https://github.com/AustinFairyland/test_auto_push.git/''
+[2023-09-30 11:33:20 | 0:00:00.042006 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:33:26 | 0:00:05.870066 | ERROR   ]: Cmd('git') failed due to: exit code(128)
+  cmdline: git fetch -v -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in <module>
+    run()
+    └ <function run at 0x000001D8269DEB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 21, in run
+    git_opt = GitOperationClass()
+              └ <class 'core.AutoGitCommit.git_operation.GitOperationClass'>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 43, in __init__
+    self.__git_fatch()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001D8268C9FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 53, in __git_fatch
+    self.__repo.remote().fetch()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001D8268C9FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 1014, in fetch
+    res = self._get_fetch_info_from_stderr(proc, progress, kill_after_timeout=kill_after_timeout)
+          │    │                           │     │                            └ None
+          │    │                           │     └ None
+          │    │                           └ <git.cmd.Git.AutoInterrupt object at 0x000001D82A176C40>
+          │    └ <function Remote._get_fetch_info_from_stderr at 0x000001D828FDF3A0>
+          └ <git.Remote "origin">
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 853, in _get_fetch_info_from_stderr
+    proc.wait(stderr=stderr_text)
+    │    │           └ "fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'htt...
+    │    └ <function Git.AutoInterrupt.wait at 0x000001D828F059D0>
+    └ <git.cmd.Git.AutoInterrupt object at 0x000001D82A176C40>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 602, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+          │               │                          │    │      │       └ b"fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'ht...
+          │               │                          │    │      └ 128
+          │               │                          │    └ <member 'args' of 'AutoInterrupt' objects>
+          │               │                          └ <git.cmd.Git.AutoInterrupt object at 0x000001D82A176C40>
+          │               └ <function remove_password_if_present at 0x000001D828DBBA60>
+          └ <class 'git.exc.GitCommandError'>
+
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git fetch -v -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+[2023-09-30 11:34:46 | 0:01:25.285869 | ERROR   ]: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in <module>
+    run()
+    └ <function run at 0x000001D8269DEB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 23, in run
+    git_opt.get_push()
+    │       └ <function GitOperationClass.get_push at 0x000001D82A15DF70>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001D8268C9FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 75, in get_push
+    self.__repo.remote().push()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001D8268C9FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 1117, in push
+    return self._get_push_info(proc, progress, kill_after_timeout=kill_after_timeout)
+           │    │              │     │                            └ None
+           │    │              │     └ None
+           │    │              └ <git.cmd.Git.AutoInterrupt object at 0x000001D82A1B6480>
+           │    └ <function Remote._get_push_info at 0x000001D828FDF430>
+           └ <git.Remote "origin">
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 926, in _get_push_info
+    proc.wait(stderr=stderr_text)
+    │    │           └ "fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'htt...
+    │    └ <function Git.AutoInterrupt.wait at 0x000001D828F059D0>
+    └ <git.cmd.Git.AutoInterrupt object at 0x000001D82A1B6480>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 602, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+          │               │                          │    │      │       └ b"fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'ht...
+          │               │                          │    │      └ 128
+          │               │                          │    └ <member 'args' of 'AutoInterrupt' objects>
+          │               │                          └ <git.cmd.Git.AutoInterrupt object at 0x000001D82A1B6480>
+          │               └ <function remove_password_if_present at 0x000001D828DBBA60>
+          └ <class 'git.exc.GitCommandError'>
+
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+[2023-09-30 11:40:55 | 0:00:00.043804 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 11:41:34 | 0:00:00.044905 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 12:29:16 | 0:00:00.044009 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 12:30:45 | 0:00:19.846064 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 12:34:19 | 0:00:01.536635 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 12:36:25 | 0:00:01.536260 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 12:44:26 | 0:08:02.113181 | ERROR   ]: 'GitOperationClass' object has no attribute '_GitOperationClass__repo'
+Traceback (most recent call last):
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 2199, in <module>
+    main()
+    └ <function main at 0x000001FE45E39EE0>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 2181, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              │        │   │                          └ False
+              │        │   └ {'port': 30014, 'vm_type': None, 'client': '127.0.0.1', 'server': False, 'DEBUG_RECORD_SOCKET_READS': False, 'multiproc': Fal...
+              │        └ <function PyDB.run at 0x000001FE45E37EE0>
+              └ <__main__.PyDB object at 0x000001FE435ED460>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 1493, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           │    │     │          │               │            │     │        └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+           │    │     │          │               │            │     └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+           │    │     │          │               │            └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\bin\\AustinPersAutoGitCommitService.py'
+           │    │     │          │               └ None
+           │    │     │          └ ''
+           │    │     └ False
+           │    └ <function PyDB._exec at 0x000001FE45E37F70>
+           └ <__main__.PyDB object at 0x000001FE435ED460>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 1500, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    │             │        │     │        └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+    │             │        │     └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+    │             │        └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\bin\\AustinPersAutoGitCommitService.py'
+    │             └ <function execfile at 0x000001FE4517A9D0>
+    └ <module '_pydev_bundle.pydev_imports' from 'D:\\App\\JetBrains\\App\\PyCharm Professional\\plugins\\python\\helpers\\pydev\\_...
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+                 │              │              │     └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+                 │              │              └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+                 │              └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\bin\\AustinPersAutoGitCommitService.py'
+                 └ '# coding: utf8\n""" \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Chengdu.China) https...
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in <module>
+    run()
+    └ <function run at 0x000001FE45E6BC10>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 22, in run
+    git_opt.git_commit(':art:Auto Git Commit')
+    │       └ <function GitOperationClass.git_commit at 0x000001FE46B2B670>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001FE45E5B910>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 71, in git_commit
+    self.__repo.index.commit(commit_data)
+    │                        └ ':art:Auto Git Commit'
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001FE45E5B910>
+
+AttributeError: 'GitOperationClass' object has no attribute '_GitOperationClass__repo'
+[2023-09-30 12:44:27 | 0:08:03.423002 | ERROR   ]: 'GitOperationClass' object has no attribute '_GitOperationClass__repo'
+Traceback (most recent call last):
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 2199, in <module>
+    main()
+    └ <function main at 0x000001FE45E39EE0>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 2181, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              │        │   │                          └ False
+              │        │   └ {'port': 30014, 'vm_type': None, 'client': '127.0.0.1', 'server': False, 'DEBUG_RECORD_SOCKET_READS': False, 'multiproc': Fal...
+              │        └ <function PyDB.run at 0x000001FE45E37EE0>
+              └ <__main__.PyDB object at 0x000001FE435ED460>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 1493, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           │    │     │          │               │            │     │        └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+           │    │     │          │               │            │     └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+           │    │     │          │               │            └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\bin\\AustinPersAutoGitCommitService.py'
+           │    │     │          │               └ None
+           │    │     │          └ ''
+           │    │     └ False
+           │    └ <function PyDB._exec at 0x000001FE45E37F70>
+           └ <__main__.PyDB object at 0x000001FE435ED460>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 1500, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    │             │        │     │        └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+    │             │        │     └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+    │             │        └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\bin\\AustinPersAutoGitCommitService.py'
+    │             └ <function execfile at 0x000001FE4517A9D0>
+    └ <module '_pydev_bundle.pydev_imports' from 'D:\\App\\JetBrains\\App\\PyCharm Professional\\plugins\\python\\helpers\\pydev\\_...
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+                 │              │              │     └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+                 │              │              └ {'__name__': '__main__', '__doc__': ' \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Che...
+                 │              └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\bin\\AustinPersAutoGitCommitService.py'
+                 └ '# coding: utf8\n""" \n@File: AustinPersAutoGitCommitService.py\n@Editor: PyCharm\n@Author: Austin (From Chengdu.China) https...
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in <module>
+    run()
+    └ <function run at 0x000001FE45E6BC10>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 23, in run
+    git_opt.get_push()
+    │       └ <function GitOperationClass.get_push at 0x000001FE46B2B700>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001FE45E5B910>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 77, in get_push
+    self.__repo.remote().push()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001FE45E5B910>
+
+AttributeError: 'GitOperationClass' object has no attribute '_GitOperationClass__repo'
+[2023-09-30 13:53:15 | 0:00:00.043748 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 13:53:37 | 0:00:01.624884 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 13:57:52 | 0:00:00.043663 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 13:57:56 | 0:00:03.471580 | INFO    ]: 更新远程仓库: git@github.com:AustinFairyland/test_auto_push.git
+[2023-09-30 13:58:18 | 0:00:25.811057 | INFO    ]: 更新本地文件: git@github.com:AustinFairyland/test_auto_push.git
+[2023-09-30 13:58:18 | 0:00:25.952741 | INFO    ]: 提交成功
+[2023-09-30 13:58:23 | 0:00:30.749254 | INFO    ]: 推送成功
+[2023-09-30 14:02:07 | 0:00:00.044957 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 14:02:11 | 0:00:04.210695 | INFO    ]: 更新远程仓库: git@github.com:AustinFairyland/test_auto_push.git
+[2023-09-30 14:02:15 | 0:00:08.343088 | INFO    ]: 更新本地文件: git@github.com:AustinFairyland/test_auto_push.git
+[2023-09-30 14:02:16 | 0:00:09.584151 | INFO    ]: 提交成功
+[2023-09-30 14:02:20 | 0:00:13.674774 | INFO    ]: 推送成功
+[2023-09-30 15:13:30 | 0:00:03.052268 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:26:49 | 0:00:00.043686 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:26:49 | 0:00:00.045189 | ERROR   ]: clone() missing 1 required positional argument: 'path'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 39, in __init__
+    self.__repo = git.Repo(self.repo_path)
+    │             │   │    │    └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\data\\repo'
+    │             │   │    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000002A763479FA0>
+    │             │   └ <class 'git.repo.base.Repo'>
+    │             └ <module 'git' from 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\.venv\\lib\\site-packages\\git\\__init__.py'>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000002A763479FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\repo\base.py", line 267, in __init__
+    raise InvalidGitRepositoryError(epath)
+          │                         └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\data\\repo'
+          └ <class 'git.exc.InvalidGitRepositoryError'>
+
+git.exc.InvalidGitRepositoryError: E:\Developments\Projects\AustinPersAutoGitCommit\data\repo
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 32, in <module>
+    run()
+    └ <function run at 0x000002A7636DEB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 26, in run
+    git_opt = GitOperationClass()
+              └ <class 'core.AutoGitCommit.git_operation.GitOperationClass'>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 42, in __init__
+    self.__git_clone()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000002A763479FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 49, in __git_clone
+    git.Repo.clone(self.__url)
+    │   │    │     └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000002A763479FA0>
+    │   │    └ <function Repo.clone at 0x000002A76583B4C0>
+    │   └ <class 'git.repo.base.Repo'>
+    └ <module 'git' from 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\.venv\\lib\\site-packages\\git\\__init__.py'>
+
+TypeError: clone() missing 1 required positional argument: 'path'
+[2023-09-30 15:29:03 | 0:00:00.042733 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:29:03 | 0:00:00.043732 | ERROR   ]: 'str' object has no attribute '_clone'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 39, in __init__
+    self.__repo = git.Repo(self.repo_path)
+    │             │   │    │    └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\data\\repo'
+    │             │   │    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001ECFF579FA0>
+    │             │   └ <class 'git.repo.base.Repo'>
+    │             └ <module 'git' from 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\.venv\\lib\\site-packages\\git\\__init__.py'>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001ECFF579FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\repo\base.py", line 267, in __init__
+    raise InvalidGitRepositoryError(epath)
+          │                         └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\data\\repo'
+          └ <class 'git.exc.InvalidGitRepositoryError'>
+
+git.exc.InvalidGitRepositoryError: E:\Developments\Projects\AustinPersAutoGitCommit\data\repo
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 32, in <module>
+    run()
+    └ <function run at 0x000001ECFFB5EB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 26, in run
+    git_opt = GitOperationClass()
+              └ <class 'core.AutoGitCommit.git_operation.GitOperationClass'>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 42, in __init__
+    self.__git_clone()
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001ECFF579FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 49, in __git_clone
+    git.Repo.clone(self.__url, self.repo_path)
+    │   │    │     │           │    └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\data\\repo'
+    │   │    │     │           └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001ECFF579FA0>
+    │   │    │     └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000001ECFF579FA0>
+    │   │    └ <function Repo.clone at 0x000001EC81CBC430>
+    │   └ <class 'git.repo.base.Repo'>
+    └ <module 'git' from 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\.venv\\lib\\site-packages\\git\\__init__.py'>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\repo\base.py", line 1285, in clone
+    return self._clone(
+           └ 'https://github.com/AustinFairyland/test_auto_push.git'
+
+AttributeError: 'str' object has no attribute '_clone'
+[2023-09-30 15:30:56 | 0:00:00.042225 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:31:04 | 0:00:08.342914 | INFO    ]: 克隆仓库: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:34:44 | 0:00:00.046194 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:34:46 | 0:00:01.215772 | INFO    ]: 更新远程仓库: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:34:47 | 0:00:02.439430 | INFO    ]: 更新本地文件: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:36:51 | 0:00:00.042555 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:36:53 | 0:00:01.775342 | INFO    ]: 更新远程仓库: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:36:54 | 0:00:02.996984 | INFO    ]: 更新本地文件: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:36:55 | 0:00:04.248243 | INFO    ]: 提交成功
+[2023-09-30 15:38:53 | 0:00:00.041375 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:38:54 | 0:00:01.183853 | INFO    ]: 更新远程仓库: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:38:55 | 0:00:02.399803 | INFO    ]: 更新本地文件: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:38:55 | 0:00:02.402822 | ERROR   ]: add() got an unexpected keyword argument 'all'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 32, in <module>
+    run()
+    └ <function run at 0x0000018DB533EB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in run
+    git_opt.git_commit(':art:Auto Git Commit')
+    │       └ <function GitOperationClass.git_commit at 0x0000018DB85F41F0>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x0000018DB50D9FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 73, in git_commit
+    self.__repo.index.add(all=True)
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x0000018DB50D9FA0>
+
+TypeError: add() got an unexpected keyword argument 'all'
+[2023-09-30 15:39:47 | 0:00:00.044762 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:39:48 | 0:00:01.204995 | INFO    ]: 更新远程仓库: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:39:49 | 0:00:02.392499 | INFO    ]: 更新本地文件: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:39:49 | 0:00:02.396014 | ERROR   ]: add() got an unexpected keyword argument 'all_files'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 32, in <module>
+    run()
+    └ <function run at 0x000002F60A00EB80>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\bin\AustinPersAutoGitCommitService.py", line 27, in run
+    git_opt.git_commit(':art:Auto Git Commit')
+    │       └ <function GitOperationClass.git_commit at 0x000002F60D2C41F0>
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000002F609A39FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\git_operation.py", line 73, in git_commit
+    self.__repo.index.add(all_files=True)
+    └ <core.AutoGitCommit.git_operation.GitOperationClass object at 0x000002F609A39FA0>
+
+TypeError: add() got an unexpected keyword argument 'all_files'
+[2023-09-30 15:41:01 | 0:00:00.050573 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:41:02 | 0:00:01.184487 | INFO    ]: 更新远程仓库: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:41:03 | 0:00:02.381770 | INFO    ]: 更新本地文件: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:41:03 | 0:00:02.830476 | INFO    ]: 提交成功
+[2023-09-30 15:43:31 | 0:00:00.041224 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:43:32 | 0:00:01.237480 | INFO    ]: 更新远程仓库: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:43:33 | 0:00:02.456658 | INFO    ]: 更新本地文件: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:43:33 | 0:00:02.623046 | INFO    ]: 提交成功
+[2023-09-30 15:50:46 | 0:00:00.043308 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-09-30 15:50:52 | 0:00:06.090349 | INFO    ]: 克隆仓库: https://github.com/AustinFairyland/test_auto_push.git
+[2023-09-30 15:50:53 | 0:00:07.239352 | INFO    ]: 提交成功
+[2023-10-10 15:10:50 | 0:00:00.057004 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 15:10:58 | 0:00:08.111163 | INFO    ]: 克隆仓库: https://github.com/AustinFairyland/test_auto_push.git
+[2023-10-10 18:04:07 | 0:00:05.748048 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:11:56 | 0:07:55.522568 | ERROR   ]: git.cmd.Git.update_environment() argument after ** must be a mapping, not _GeneratorContextManager
+Traceback (most recent call last):
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 2199, in <module>
+    main()
+    └ <function main at 0x000001A0076FFA60>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 2181, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              │        │   │                          └ False
+              │        │   └ {'port': 31587, 'vm_type': None, 'client': '127.0.0.1', 'server': False, 'DEBUG_RECORD_SOCKET_READS': False, 'multiproc': Fal...
+              │        └ <function PyDB.run at 0x000001A0076FAA60>
+              └ <__main__.PyDB object at 0x000001A004ABA460>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 1493, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           │    │     │          │               │            │     │        └ {'__name__': '__main__', '__doc__': ' \n@File: main.py\n@Editor: PyCharm\n@Author: Austin (From Chengdu.China) https://fairy....
+           │    │     │          │               │            │     └ {'__name__': '__main__', '__doc__': ' \n@File: main.py\n@Editor: PyCharm\n@Author: Austin (From Chengdu.China) https://fairy....
+           │    │     │          │               │            └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\test\\main.py'
+           │    │     │          │               └ None
+           │    │     │          └ ''
+           │    │     └ False
+           │    └ <function PyDB._exec at 0x000001A0076FAAF0>
+           └ <__main__.PyDB object at 0x000001A004ABA460>
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\pydevd.py", line 1500, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    │             │        │     │        └ {'__name__': '__main__', '__doc__': ' \n@File: main.py\n@Editor: PyCharm\n@Author: Austin (From Chengdu.China) https://fairy....
+    │             │        │     └ {'__name__': '__main__', '__doc__': ' \n@File: main.py\n@Editor: PyCharm\n@Author: Austin (From Chengdu.China) https://fairy....
+    │             │        └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\test\\main.py'
+    │             └ <function execfile at 0x000001A006A39A60>
+    └ <module '_pydev_bundle.pydev_imports' from 'D:\\App\\JetBrains\\App\\PyCharm Professional\\plugins\\python\\helpers\\pydev\\_...
+
+  File "D:\App\JetBrains\App\PyCharm Professional\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+                 │              │              │     └ {'__name__': '__main__', '__doc__': ' \n@File: main.py\n@Editor: PyCharm\n@Author: Austin (From Chengdu.China) https://fairy....
+                 │              │              └ {'__name__': '__main__', '__doc__': ' \n@File: main.py\n@Editor: PyCharm\n@Author: Austin (From Chengdu.China) https://fairy....
+                 │              └ 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\test\\main.py'
+                 └ '# coding: utf8\n""" \n@File: main.py\n@Editor: PyCharm\n@Author: Austin (From Chengdu.China) https://fairy.host\n@HomePage: ...
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\test\main.py", line 22, in <module>
+    git_operation = OperationClass(url_protocol='http')
+                    └ <class 'core.AutoGitCommit.operations.OperationClass'>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 50, in __init__
+    self.__git_clone()
+    └ <core.AutoGitCommit.operations.OperationClass object at 0x000001A007732BB0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 58, in __git_clone
+    git.Repo.clone_from(url=self.__url, to_path=self.__localrepo_path, env=self.__credential)
+    │   │    │              │                   │                          └ <core.AutoGitCommit.operations.OperationClass object at 0x000001A007732BB0>
+    │   │    │              │                   └ <core.AutoGitCommit.operations.OperationClass object at 0x000001A007732BB0>
+    │   │    │              └ <core.AutoGitCommit.operations.OperationClass object at 0x000001A007732BB0>
+    │   │    └ <classmethod object at 0x000001A0079649D0>
+    │   └ <class 'git.repo.base.Repo'>
+    └ <module 'git' from 'E:\\Developments\\Projects\\AustinPersAutoGitCommit\\.venv\\lib\\site-packages\\git\\__init__.py'>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\repo\base.py", line 1327, in clone_from
+    git.update_environment(**env)
+    │   │                    └ <contextlib._GeneratorContextManager object at 0x000001A007B413D0>
+    │   └ <function Git.update_environment at 0x000001A007886B80>
+    └ <git.cmd.Git object at 0x000001A007B72880>
+
+TypeError: git.cmd.Git.update_environment() argument after ** must be a mapping, not _GeneratorContextManager
+[2023-10-10 18:13:04 | 0:00:02.185271 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:16:54 | 0:00:00.042057 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:17:03 | 0:00:08.592097 | INFO    ]: 克隆仓库：https://github.com/AustinFairyland/test_auto_push.git
+[2023-10-10 18:17:03 | 0:00:08.594098 | ERROR   ]: name 'datetime' is not defined
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\test\main.py", line 25, in <module>
+    print(git_operation.commit('add'))
+          │             └ <function OperationClass.commit at 0x0000013CFFFE15E0>
+          └ <core.AutoGitCommit.operations.OperationClass object at 0x0000013CFE489FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 96, in commit
+    return self.__git_commit(msg=msg)
+           │                     └ 'add'
+           └ <core.AutoGitCommit.operations.OperationClass object at 0x0000013CFE489FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 72, in __git_commit
+    date_format = datetime.strftime(datetime.now(), '%Y-%m-%d')
+
+NameError: name 'datetime' is not defined
+[2023-10-10 18:17:33 | 0:00:00.041597 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:17:33 | 0:00:00.172030 | INFO    ]: 暂存区添加成功
+[2023-10-10 18:17:33 | 0:00:00.251922 | ERROR   ]: Cmd('git') failed due to: exit code(1)
+  cmdline: git commit add
+  stderr: 'error: pathspec 'add' did not match any file(s) known to git'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\test\main.py", line 25, in <module>
+    print(git_operation.commit('add'))
+          │             └ <function OperationClass.commit at 0x00000207A3C2F5E0>
+          └ <core.AutoGitCommit.operations.OperationClass object at 0x00000207A0D49FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 97, in commit
+    return self.__git_commit(msg=msg)
+           │                     └ 'add'
+           └ <core.AutoGitCommit.operations.OperationClass object at 0x00000207A0D49FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 83, in __git_commit
+    self.__repo.git.commit(msg)
+    │                      └ 'add'
+    └ <core.AutoGitCommit.operations.OperationClass object at 0x00000207A0D49FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 739, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+                   │       │       │    │             │      │       └ {}
+                   │       │       │    │             │      └ ('add',)
+                   │       │       │    │             └ 'commit'
+                   │       │       │    └ <function Git._call_process at 0x00000207A3523CA0>
+                   │       │       └ <git.cmd.Git object at 0x00000207A3C3F100>
+                   │       └ {}
+                   └ ('add',)
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 1315, in _call_process
+    return self.execute(call, **exec_kwargs)
+           │    │       │       └ {}
+           │    │       └ ['git', 'commit', 'add']
+           │    └ <function Git.execute at 0x00000207A3523790>
+           └ <git.cmd.Git object at 0x00000207A3C3F100>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 1110, in execute
+    raise GitCommandError(redacted_command, status, stderr_value, stdout_value)
+          │               │                 │       │             └ b''
+          │               │                 │       └ b"error: pathspec 'add' did not match any file(s) known to git"
+          │               │                 └ 1
+          │               └ ['git', 'commit', 'add']
+          └ <class 'git.exc.GitCommandError'>
+
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git commit add
+  stderr: 'error: pathspec 'add' did not match any file(s) known to git'
+[2023-10-10 18:19:54 | 0:00:00.041671 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:19:54 | 0:00:00.126533 | INFO    ]: 暂存区添加成功
+[2023-10-10 18:19:54 | 0:00:00.222200 | ERROR   ]: Cmd('git') failed due to: exit code(1)
+  cmdline: git commit -m add
+  stdout: 'On branch ReleaseMaster
+Your branch is up to date with 'origin/ReleaseMaster'.
+
+nothing to commit, working tree clean'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\test\main.py", line 25, in <module>
+    print(git_operation.commit('add'))
+          │             └ <function OperationClass.commit at 0x000002133552F5E0>
+          └ <core.AutoGitCommit.operations.OperationClass object at 0x0000021332639FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 97, in commit
+    return self.__git_commit(msg=msg)
+           │                     └ 'add'
+           └ <core.AutoGitCommit.operations.OperationClass object at 0x0000021332639FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 83, in __git_commit
+    self.__repo.git.commit('-m', msg)
+    │                            └ 'add'
+    └ <core.AutoGitCommit.operations.OperationClass object at 0x0000021332639FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 739, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+                   │       │       │    │             │      │       └ {}
+                   │       │       │    │             │      └ ('-m', 'add')
+                   │       │       │    │             └ 'commit'
+                   │       │       │    └ <function Git._call_process at 0x0000021334E23CA0>
+                   │       │       └ <git.cmd.Git object at 0x000002133553F100>
+                   │       └ {}
+                   └ ('-m', 'add')
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 1315, in _call_process
+    return self.execute(call, **exec_kwargs)
+           │    │       │       └ {}
+           │    │       └ ['git', 'commit', '-m', 'add']
+           │    └ <function Git.execute at 0x0000021334E23790>
+           └ <git.cmd.Git object at 0x000002133553F100>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 1110, in execute
+    raise GitCommandError(redacted_command, status, stderr_value, stdout_value)
+          │               │                 │       │             └ b"On branch ReleaseMaster\nYour branch is up to date with 'origin/ReleaseMaster'.\n\nnothing to commit, working tree clean"
+          │               │                 │       └ b''
+          │               │                 └ 1
+          │               └ ['git', 'commit', '-m', 'add']
+          └ <class 'git.exc.GitCommandError'>
+
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git commit -m add
+  stdout: 'On branch ReleaseMaster
+Your branch is up to date with 'origin/ReleaseMaster'.
+
+nothing to commit, working tree clean'
+[2023-10-10 18:21:25 | 0:00:02.161933 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:32:20 | 0:00:03.625109 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:32:38 | 0:00:21.293685 | INFO    ]: 远程分支提取成功
+[2023-10-10 18:33:47 | 0:00:01.446064 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:34:50 | 0:00:01.112497 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:35:06 | 0:00:17.331911 | INFO    ]: 克隆仓库：https://github.com/AustinFairyland/test_auto_push.git
+[2023-10-10 18:35:59 | 0:00:01.743937 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:36:13 | 0:00:15.288715 | INFO    ]: 远程分支提取成功
+[2023-10-10 18:36:29 | 0:00:31.921495 | INFO    ]: 暂存区添加成功
+[2023-10-10 18:36:32 | 0:00:34.307244 | INFO    ]: 提交成功
+[2023-10-10 18:38:05 | 0:00:00.038775 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:38:07 | 0:00:01.574035 | INFO    ]: 远程分支提取成功
+[2023-10-10 18:38:23 | 0:00:17.584046 | ERROR   ]: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\test\main.py", line 25, in <module>
+    git_operation.push()
+    │             └ <function OperationClass.push at 0x0000025739610700>
+    └ <core.AutoGitCommit.operations.OperationClass object at 0x0000025736A99FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 100, in push
+    return self.__git_push()
+           └ <core.AutoGitCommit.operations.OperationClass object at 0x0000025736A99FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 91, in __git_push
+    self.__repo.remotes.origin.push()
+    └ <core.AutoGitCommit.operations.OperationClass object at 0x0000025736A99FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 1117, in push
+    return self._get_push_info(proc, progress, kill_after_timeout=kill_after_timeout)
+           │    │              │     │                            └ None
+           │    │              │     └ None
+           │    │              └ <git.cmd.Git.AutoInterrupt object at 0x0000025739642140>
+           │    └ <function Remote._get_push_info at 0x00000257393DB9D0>
+           └ <git.Remote "origin">
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 926, in _get_push_info
+    proc.wait(stderr=stderr_text)
+    │    │           └ "fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'htt...
+    │    └ <function Git.AutoInterrupt.wait at 0x0000025738F030D0>
+    └ <git.cmd.Git.AutoInterrupt object at 0x0000025739642140>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 602, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+          │               │                          │    │      │       └ b"fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'ht...
+          │               │                          │    │      └ 128
+          │               │                          │    └ <member 'args' of 'AutoInterrupt' objects>
+          │               │                          └ <git.cmd.Git.AutoInterrupt object at 0x0000025739642140>
+          │               └ <function remove_password_if_present at 0x0000025738E53940>
+          └ <class 'git.exc.GitCommandError'>
+
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+[2023-10-10 18:38:45 | 0:00:00.039053 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:38:47 | 0:00:01.529815 | INFO    ]: 远程分支提取成功
+[2023-10-10 18:38:56 | 0:00:10.747655 | ERROR   ]: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+Traceback (most recent call last):
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\test\main.py", line 25, in <module>
+    git_operation.push()
+    │             └ <function OperationClass.push at 0x000001CB5B8AF700>
+    └ <core.AutoGitCommit.operations.OperationClass object at 0x000001CB58D09FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 100, in push
+    return self.__git_push()
+           └ <core.AutoGitCommit.operations.OperationClass object at 0x000001CB58D09FA0>
+
+> File "E:\Developments\Projects\AustinPersAutoGitCommit\core\AutoGitCommit\operations.py", line 91, in __git_push
+    self.__repo.remotes.origin.push()
+    └ <core.AutoGitCommit.operations.OperationClass object at 0x000001CB58D09FA0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 1117, in push
+    return self._get_push_info(proc, progress, kill_after_timeout=kill_after_timeout)
+           │    │              │     │                            └ None
+           │    │              │     └ None
+           │    │              └ <git.cmd.Git.AutoInterrupt object at 0x000001CB5B8E22C0>
+           │    └ <function Remote._get_push_info at 0x000001CB5B67B9D0>
+           └ <git.Remote "origin">
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\remote.py", line 926, in _get_push_info
+    proc.wait(stderr=stderr_text)
+    │    │           └ "fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'htt...
+    │    └ <function Git.AutoInterrupt.wait at 0x000001CB5B1A30D0>
+    └ <git.cmd.Git.AutoInterrupt object at 0x000001CB5B8E22C0>
+
+  File "E:\Developments\Projects\AustinPersAutoGitCommit\.venv\lib\site-packages\git\cmd.py", line 602, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+          │               │                          │    │      │       └ b"fatal: User cancelled dialog.\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'ht...
+          │               │                          │    │      └ 128
+          │               │                          │    └ <member 'args' of 'AutoInterrupt' objects>
+          │               │                          └ <git.cmd.Git.AutoInterrupt object at 0x000001CB5B8E22C0>
+          │               └ <function remove_password_if_present at 0x000001CB5B0F3940>
+          └ <class 'git.exc.GitCommandError'>
+
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain -- origin
+  stderr: 'fatal: User cancelled dialog.
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory'
+[2023-10-10 18:39:24 | 0:00:00.037722 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:40:34 | 0:00:00.043987 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:40:43 | 0:00:08.300949 | INFO    ]: 克隆仓库：https://github.com/AustinFairyland/test_auto_push.git
+[2023-10-10 18:40:43 | 0:00:08.431007 | INFO    ]: 暂存区添加成功
+[2023-10-10 18:40:43 | 0:00:08.618086 | INFO    ]: 提交成功
+[2023-10-10 18:41:09 | 0:00:35.183792 | INFO    ]: 推送成功
+[2023-10-10 18:47:02 | 0:00:00.304244 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:47:03 | 0:00:01.715224 | INFO    ]: 远程分支提取成功
+[2023-10-10 18:47:03 | 0:00:01.839087 | INFO    ]: 暂存区添加成功
+[2023-10-10 18:47:03 | 0:00:01.986490 | INFO    ]: 提交成功
+[2023-10-10 18:47:06 | 0:00:04.755670 | INFO    ]: 推送成功
+[2023-10-10 18:47:06 | 0:00:04.755670 | INFO    ]: 运行时长：4.452425479888916秒
+[2023-10-10 18:47:06 | 0:00:04.755670 | INFO    ]: 等待时间：10秒...
+[2023-10-10 18:47:16 | 0:00:14.768946 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:47:18 | 0:00:16.296517 | INFO    ]: 远程分支提取成功
+[2023-10-10 18:47:18 | 0:00:16.391732 | INFO    ]: 暂存区添加成功
+[2023-10-10 18:47:18 | 0:00:16.534580 | INFO    ]: 提交成功
+[2023-10-10 18:47:20 | 0:00:19.233244 | INFO    ]: 推送成功
+[2023-10-10 18:47:20 | 0:00:19.233244 | INFO    ]: 运行时长：4.46530294418335秒
+[2023-10-10 18:47:20 | 0:00:19.233244 | INFO    ]: 等待时间：7秒...
+[2023-10-10 18:47:27 | 0:00:26.237827 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:47:29 | 0:00:27.616826 | INFO    ]: 远程分支提取成功
+[2023-10-10 18:47:29 | 0:00:27.707990 | INFO    ]: 暂存区添加成功
+[2023-10-10 18:47:29 | 0:00:27.850557 | INFO    ]: 提交成功
+[2023-10-10 18:47:32 | 0:00:30.698182 | INFO    ]: 推送成功
+[2023-10-10 18:47:32 | 0:00:30.698182 | INFO    ]: 运行时长：4.461288690567017秒
+[2023-10-10 18:47:32 | 0:00:30.698182 | INFO    ]: 等待时间：1秒...
+[2023-10-10 18:47:33 | 0:00:31.700994 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:47:35 | 0:00:34.193006 | INFO    ]: 远程分支提取成功
+[2023-10-10 18:47:35 | 0:00:34.279832 | INFO    ]: 暂存区添加成功
+[2023-10-10 18:47:36 | 0:00:34.425854 | INFO    ]: 提交成功
+[2023-10-10 18:47:39 | 0:00:38.156385 | INFO    ]: 推送成功
+[2023-10-10 18:47:39 | 0:00:38.156385 | INFO    ]: 运行时长：6.456389665603638秒
+[2023-10-10 18:47:39 | 0:00:38.156385 | INFO    ]: 等待时间：10秒...
+[2023-10-10 18:49:24 | 0:00:00.317598 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
+[2023-10-10 18:49:25 | 0:00:01.724159 | INFO    ]: 远程分支提取成功
+[2023-10-10 18:49:25 | 0:00:01.810180 | INFO    ]: 暂存区添加成功
+[2023-10-10 18:49:25 | 0:00:01.955982 | INFO    ]: 提交成功
+[2023-10-10 18:49:28 | 0:00:04.642469 | INFO    ]: 推送成功
+[2023-10-10 18:49:28 | 0:00:04.643973 | INFO    ]: 运行时长：4.327375173568726秒
+[2023-10-10 18:49:28 | 0:00:04.643973 | INFO    ]: 等待时间：4秒...
+[2023-10-10 18:49:32 | 0:00:08.646659 | INFO    ]: 配置文件: E:\Developments\Projects\AustinPersAutoGitCommit\config\config.dev.yaml 读取成功.
