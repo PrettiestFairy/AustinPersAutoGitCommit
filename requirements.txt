@@ -90,7 +90,7 @@ packaging==23.1
 pandas==2.1.0
 parsel==1.8.1
 pathlib==1.0.1
-Pillow==10.0.0
+Pillow==10.0.1
 pipupgrade==1.12.0
 platformdirs==3.10.0
 pooch==1.7.0
