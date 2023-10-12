@@ -41,8 +41,9 @@ class OperationClass:
         else:
             self.__url = gitrepo.get('httpurl')
         self.__reponame = gitrepo.get('reponame')
-        # self.__credential = git.Git().custom_environment(GITHUB_TOKEN=gitconfig.get('token'))
+        JournalsModule.debug(PublicUtilsStaticClass.path_root)
         self.__localrepo_path = PublicUtilsStaticClass.path_root_conver_system_separator(os.path.join(PublicUtilsStaticClass.path_root, 'data/repo'))
+        JournalsModule.debug(self.__localrepo_path)
         try:
             if os.path.isdir(self.__localrepo_path) is False:
                 self.__git_clone()

@@ -26,7 +26,7 @@ def run():
     while True:
         start_run_time = time.time()
         wait_time = randint(1, 10)
-        git_operation = OperationClass(url_protocol='http')
+        git_operation = OperationClass(url_protocol='ssh')
         git_operation.commit('add')
         git_operation.push()
         JournalsModule.info('运行时长：{}秒'.format(time.time() - start_run_time))
