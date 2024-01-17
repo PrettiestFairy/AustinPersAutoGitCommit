@@ -43,6 +43,8 @@ class OperationClass:
         self.__reponame = gitrepo.get('reponame')
         JournalsModule.debug(PublicUtilsStaticClass.path_root)
         self.__localrepo_path = PublicUtilsStaticClass.path_root_conver_system_separator(os.path.join(PublicUtilsStaticClass.path_root, 'data/repo'))
+        if not os.path.isdir(self.__localrepo_path):
+            os.mkdir(self.__localrepo_path)
         JournalsModule.debug(self.__localrepo_path)
         try:
             if os.path.isdir(self.__localrepo_path) is False:
